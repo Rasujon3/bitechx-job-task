@@ -1,7 +1,6 @@
 import React from "react";
 
 const Story = ({ story }) => {
-  console.log(story);
   return (
     <div className="my-2">
       <div className="card card-compact bg-base-100 shadow-xl">
@@ -33,8 +32,8 @@ const Story = ({ story }) => {
             </div>
           </div>
           {/* 2nd - date */}
-          <div className="mt-2">
-            <p>{story.created}</p>
+          <div className="mt-2 text-black">
+            <p className="text-black text-opacity-50">{story.created}</p>
           </div>
           {/* 3rd - Travel for explore */}
           <div className="mt-2">

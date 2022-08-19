@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Authors from "./Authors";
 import Story from "./Story";
 
 const Stories = () => {
@@ -14,11 +15,11 @@ const Stories = () => {
       {stories.slice(0, 3).map((story) => (
         <Story key={story.created} story={story}></Story>
       ))}
-      <h2>description</h2>
+      <Authors />
       {stories.slice(3, 6).map((story) => (
         <Story key={story.created} story={story}></Story>
       ))}
-      <h2>description</h2>
+      <Authors />
     </div>
   );
 };
