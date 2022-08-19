@@ -1,0 +1,56 @@
+[
+  {
+    "_id": 1,
+    "name": "Car Hood",
+    "img": "https://i.ibb.co/2gx3pfY/parts1.jpg",
+    "description": "Make Auto Parts Manufacturing Rear Step Bumper Assembly",
+    "minimumOrderQuantity": 1000,
+    "availableQuantity": 100000,
+    "price": 100
+  },
+  {
+    "_id": 2,
+    "name": "Car Grille",
+    "img": "https://i.ibb.co/D5XytQ8/parts2.jpg",
+    "description": "MAPM - Silverado Rear Step Bumper Chrome With Brackets",
+    "minimumOrderQuantity": 1000,
+    "availableQuantity": 200000,
+    "price": 200
+  },
+  {
+    "_id": 3,
+    "name": "Car Stripping",
+    "img": "https://i.ibb.co/zh8rSFk/parts3.jpg",
+    "description": "Make Auto Parts Manufacturing Front Bumper Filler Primed For",
+    "minimumOrderQuantity": 1000,
+    "availableQuantity": 300000,
+    "price": 300
+  },
+  {
+    "_id": 4,
+    "name": "Fender",
+    "img": "https://i.ibb.co/VY0Xc98/parts4.jpg",
+    "description": "Make Auto Parts Manufacturing Grille Assembly Honeycomb",
+    "minimumOrderQuantity": 1000,
+    "availableQuantity": 400000,
+    "price": 400
+  },
+  {
+    "_id": 5,
+    "name": "Car Bumper",
+    "img": "https://i.ibb.co/wghWg6S/parts5.jpg",
+    "description": "Make Auto Parts Manufacturing - Set of 2 Full Metal Door Seal",
+    "minimumOrderQuantity": 1000,
+    "availableQuantity": 500000,
+    "price": 500
+  },
+  {
+    "_id": 6,
+    "name": "Bumper Cover",
+    "img": "https://i.ibb.co/bHQgntM/parts6.jpg",
+    "description": "Make Auto Parts Manufacturing Rear Bumper Tow Hitch Hole",
+    "minimumOrderQuantity": 1000,
+    "availableQuantity": 600000,
+    "price": 600
+  }
+]
