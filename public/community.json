@@ -1,29 +1,32 @@
 [
   {
     "name": "Josephite Language & Reading Club",
-    "profileImage": "/images/community.png",
+    "profileImage": "https://avatars.githubusercontent.com/u/61946723?v=4",
     "bio": "Here we believe in dreaming as a team, grooming our skills and advancing towards perfection while providing quality service to our customers. ",
     "summary": {
       "stories": 390,
-      "followers": 2100
+      "followers": 2100,
+      "authors": 21
     }
   },
   {
     "name": "Travel for explore",
-    "profileImage": "/images/community.png",
+    "profileImage": "https://avatars.githubusercontent.com/u/61946723?v=4",
     "bio": "Here we believe in dreaming as a team, grooming our skills and advancing towards perfection while providing quality service to our customers. ",
     "summary": {
       "stories": 890,
-      "followers": 9000
+      "followers": 9000,
+      "authors": 22
     }
   },
   {
     "name": "Josephite Language & Reading Club",
-    "profileImage": "/images/community.png",
+    "profileImage": "https://avatars.githubusercontent.com/u/61946723?v=4",
     "bio": "Here we believe in dreaming as a team, grooming our skills and advancing towards perfection while providing quality service to our customers. ",
     "summary": {
       "stories": 390,
-      "followers": 2100
+      "followers": 2100,
+      "authors": 23
     }
   }
 ]

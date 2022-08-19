@@ -16,7 +16,7 @@ const Home = () => {
       <Contact></Contact> */}
       <Stories />
       {/* <Authors /> */}
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 };

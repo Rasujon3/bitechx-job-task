@@ -32,7 +32,7 @@ import UpdateProfile from "./Pages/Dashboard/UpdateProfile";
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto px-12">
+    <div className="max-w-7xl mx-auto px-12 bg-black">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

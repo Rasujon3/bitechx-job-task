@@ -11,7 +11,7 @@ const Authors = () => {
   }, []);
   return (
     <>
-      <div className="mt-2 bg-black">
+      <div className="mt-2 bg-black pt-4">
         <h5 className="text-white text-xl">Amazing Authors to follow</h5>
         <div className="grid">
           {authors.map((author) => (
