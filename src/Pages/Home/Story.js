@@ -2,7 +2,7 @@ import React from "react";
 
 const Story = ({ story }) => {
   return (
-    <div className="my-2">
+    <div className="mb-2 bg-black">
       <div className="card card-compact bg-base-100 shadow-xl">
         <figure>
           <img

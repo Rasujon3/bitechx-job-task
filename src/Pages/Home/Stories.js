@@ -12,7 +12,7 @@ const Stories = () => {
       .then((data) => setStories(data));
   }, []);
   return (
-    <div className="mt-2">
+    <div className="">
       {stories.slice(0, 3).map((story) => (
         <Story key={story.created} story={story}></Story>
       ))}
