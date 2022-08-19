@@ -14,9 +14,9 @@ const Navbar = () => {
 
   const menuItems = (
     <>
-      <li>
+      {/* <li>
         <Link to="/">Home</Link>
-      </li>
+      </li> */}
       {/* <li>
         <Link to="/appointment">Appointment</Link>
       </li> */}
@@ -29,18 +29,20 @@ const Navbar = () => {
       <li>
         <Link to="/about">About</Link>
       </li> */}
-      <li>
+      {/* <li>
         <Link to="/blogs">Blogs</Link>
-      </li>
+      </li> */}
       <li>
-        <Link to="/portfolio">My Portfolio</Link>
+        <Link to="/">
+          <span className="text-white">Hootstory</span>
+        </Link>
       </li>
-      {user && (
+      {/* {user && (
         <li>
           <Link to="/dashboard">Dashboard</Link>
         </li>
-      )}
-      <li>
+      )} */}
+      {/* <li>
         {user ? (
           <button onClick={logout} className="btn btn-ghost">
             Sign Out
@@ -48,11 +50,11 @@ const Navbar = () => {
         ) : (
           <Link to="/login">Login</Link>
         )}
-      </li>
+      </li> */}
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-black">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -78,9 +80,9 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost normal-case text-xl">
+        {/* <Link to="/" className="btn btn-ghost normal-case text-xl">
           Parts Bazar
-        </Link>
+        </Link> */}
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>
