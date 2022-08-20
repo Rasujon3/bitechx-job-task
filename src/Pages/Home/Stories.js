@@ -15,20 +15,26 @@ const Stories = () => {
   }, []);
   return (
     <div className="">
-      {/* {stories.slice(0, 1).map((story) => (
+      {stories.slice(0, 1).map((story) => (
         <ShortStory key={story.created} story={story}></ShortStory>
       ))}
-      {stories.slice(1, 2).map((story) => (
-        <Story key={story.created} story={story}></Story>
-      ))} */}
       {stories.slice(2, 3).map((story) => (
         <MediumStory key={story.created} story={story}></MediumStory>
       ))}
-      {/* <Authors />
-      {stories.slice(3, 6).map((story) => (
+      {stories.slice(3, 4).map((story) => (
         <Story key={story.created} story={story}></Story>
       ))}
-      <Communities /> */}
+      <Authors />
+      {stories.slice(1, 2).map((story) => (
+        <ShortStory key={story.created} story={story}></ShortStory>
+      ))}
+      {stories.slice(4, 5).map((story) => (
+        <MediumStory key={story.created} story={story}></MediumStory>
+      ))}
+      {stories.slice(5, 6).map((story) => (
+        <Story key={story.created} story={story}></Story>
+      ))}
+      <Communities />
     </div>
   );
 };
