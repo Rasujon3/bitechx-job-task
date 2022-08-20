@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Authors from "./Authors";
 import Communities from "./Communities";
+import ShortStory from "./ShortStory";
 import Story from "./Story";
 
 const Stories = () => {
@@ -13,7 +14,13 @@ const Stories = () => {
   }, []);
   return (
     <div className="">
-      {stories.slice(0, 3).map((story) => (
+      {stories.slice(0, 1).map((story) => (
+        <ShortStory key={story.created} story={story}></ShortStory>
+      ))}
+      {stories.slice(1, 2).map((story) => (
+        <Story key={story.created} story={story}></Story>
+      ))}
+      {stories.slice(2, 3).map((story) => (
         <Story key={story.created} story={story}></Story>
       ))}
       <Authors />
